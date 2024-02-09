@@ -1,0 +1,154 @@
+/*
+Theme Name: Twenty Twenty-Three
+Theme URI: https://wordpress.org/themes/twentytwentythree
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
+Requires at least: 6.1
+Tested up to: 6.3
+Requires PHP: 5.6
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: twentytwentythree
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+/*-----------FAQ-------------*/
+.faq-section {
+    background-color: #ffffff;
+}
+
+.faq-item {
+    cursor: pointer;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+.faq-question {
+    color: #000;
+    position: relative;
+}
+
+.faq-question::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.faq-answer {
+    display: none;
+    padding-left: 10px;
+    color: #6BB5CE;
+}
+
+.faq-active .faq-answer {
+    display: block;
+}
+
+.faq-active .faq-question::after {
+    content: "-";
+}
+/*--------------------*/
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-container span {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 2px 8px;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.secondary-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.image-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-section {
+    background-color: #324997;
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.footer-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.custom-h2 span{
+	background: linear-gradient(to top, #6BB5CE 0%, #6BB5CE 25%, transparent 25%, transparent 100%);
+	background-position: 0 -5px;
+	font-weight: bold;
+	height: 90%;
+
+}
+.custom-h2{
+	font-family: gineso,sans-serif;
+	font-size: 60px;
+}
